@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+  <title>base template</title>
+
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="./lib/css/bootstrap.min.css">
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+      <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  <style>
+  .topnav {
+    height: 40px;
+    border-bottom: 2px solid #000;
+    text-align: center;
+    line-height: 40px;
+  }
+
+  .topnav a {
+    display: inline-block;
+    color: #333;
+  }
+
+  .topnav .qrcode,
+    .topnav .serice,
+    .topnav .extra {
+      border-right: 1px solid #000;
+    }
+
+    .topnav .join .btn {
+      padding: 2px 5px;
+      background-color: red;
+      color: #fff;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="wjs">
+    <div class="topnav hidden-sm hidden-xs">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-2 qrcode">
+            <a href="javascript:;">
+              <i class="glyphicon glyphicon-phone"></i>
+              手机微金所
+              <i class="glyphicon glyphicon-menu-down"></i>
+            </a>
+          </div>
+          <div class="col-md-5 serice">
+            <a href="javascript:;">
+              <i class="glyphicon glyphicon-phone-alt"></i>
+              4006-89-4006（服务时间：9:00-21:00)
+            </a>
+          </div>
+          <div class="col-md-2 extra">
+            <a href="javascript:;">常见问题</a>
+            <a href="javascript:;">财富登陆</a>
+          </div>
+          <div class="col-md-3 join">
+            <a href="" hef="javascript:;" class="btn">免费注册</a>
+            <a href="" hef="javascript:;">登录</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="./js/jQuery.min.js"></script>
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="./lib/js/bootstrap.main.js"></script>
+</body>
+
+</html>
